@@ -1,0 +1,49 @@
+.ExcelTable {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 20px auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  font-weight: bold;
+}
+
+th,
+td {
+  border: 1px solid #ddd !important;
+  padding: 8px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+td {
+  position: relative;
+}
+
+table input[type="text"] {
+  border: none;
+  padding: 4px;
+  width: 100%;
+}
+
+td > input[type="text"] {
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
